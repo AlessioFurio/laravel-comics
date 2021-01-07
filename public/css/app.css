@@ -139,3 +139,69 @@ nav ul li:nth-of-type(2) a {
   padding-top: 20px;
 }
 
+.section-cards .btn {
+  text-align: center;
+}
+
+.section-cards .btn button {
+  background-color: #0282f9;
+  padding: 10px 50px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+}
+
+footer {
+  background: url("/images/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+footer a {
+  color: #959595;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer a:hover {
+  color: #0282f9;
+}
+
+.footer-top {
+  background: url("/images/dc-logo-bg.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 70%;
+}
+
+.footer-top .nav-footer {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-bottom {
+  background-color: #222;
+}
+
+.footer-bottom .btn-footer button {
+  border: 2px solid #0282f9;
+  background-color: unset;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 20px;
+}
+

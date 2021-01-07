@@ -29,5 +29,18 @@
                         padding-top: 20px;
                     }
                 }
+    .btn {
+        text-align: center;
+
+        button {
+            background-color: #0282f9;
+            padding: 10px 50px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            border: none;
+        }
+    }
 
 }

@@ -22,6 +22,11 @@
                 @endforeach
 
             </div>
+
+            <div class="btn">
+                <button type="button" name="button">Load more</button>
+            </div>
+
         </div>
     </div>
 
