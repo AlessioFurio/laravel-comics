@@ -25,3 +25,10 @@ a {
     max-width: 1280px;
     margin: 0 auto;
 }
+
+.jumbotron {
+    background: url('/images/jumbotron.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
