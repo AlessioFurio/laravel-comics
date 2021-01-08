@@ -7,20 +7,20 @@
 
     <div class="section-cards">
         <div class="container">
+
             <div class="cards">
-
-                @foreach ($comics as $item)
-
-                    <div class="card">
-                        <div class="wp-poster">
-                            <img src="{{ $item['thumb'] }}" alt="{{ $item['series'] }}">
+                @foreach ($comics as $index => $item)
+                    <a href="{{route('comic-details', ['id' => $index])}}">
+                        <div class="card">
+                            <div class="wp-poster">
+                                <img src="{{ $item['thumb'] }}" alt="{{ $item['series'] }}">
+                            </div>
+                            <div class="description">
+                                <h4>{{ $item['series']}}</h4>
+                            </div>
                         </div>
-                        <div class="description">
-                            <h4>{{ $item['series']}}</h4>
-                        </div>
-                    </div>
+                    </a>
                 @endforeach
-
             </div>
 
             <div class="btn">
